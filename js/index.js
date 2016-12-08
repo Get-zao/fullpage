@@ -19,6 +19,7 @@ $(function(){
         })
     })
     touch.on(".manping","swipe",function(e){
+        
         if(e.direction=="down"){
             //1.方向 2.开关 3.和数字关联起来
             if(num==0){
